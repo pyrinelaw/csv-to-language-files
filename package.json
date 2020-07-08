@@ -1,0 +1,37 @@
+{
+    "name": "csv-to-language-files",
+    "version": "0.0.1",
+    "description": "csv 文件转换为多个 language 文件",
+    "main": "./src/index.js",
+    "author": "Pyrine.Law <petrus_law@yeah.net>",
+    "repository": {
+      "type": "git",
+      "url": "http://github"
+    },
+    "keywords": [
+      "csv-to-language",
+      "csv-and-language",
+      "csv-and-language-files",
+      "csv-language-files",
+      "csv-language"
+    ],
+    "scripts": {
+      "test": "node ./test/index.js"
+    },
+    "engines": {
+      "node" : ">=8.0.0"
+    },
+    "files": [
+        "src",
+        "test",
+        "Readme.md"
+    ],
+    "dependencies": {
+      "colors": "^1.4.0",
+      "lodash": "^4.17.15",
+      "csv-to-lines": "^0.0.1",
+      "object-write-to-file": "^0.0.3"
+    },
+    "license": "MIT"
+  }
+  
