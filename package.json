@@ -1,6 +1,6 @@
 {
     "name": "csv-to-language-files",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "csv 文件转换为多个 language 文件",
     "main": "./src/index.js",
     "author": "Pyrine.Law <petrus_law@yeah.net>",
