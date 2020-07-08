@@ -26,10 +26,10 @@ csvToLanguageFiles(
     }
 ).then(resp => {
     console.warn(resp);
-    console.warn('全部写入完成了');
+    console.warn('全部写入成功了');
 }).catch(error => {
     console.warn(error);
-    console.warn('全部写入失败了');
+    console.warn('写入失败了');
 });
 
 ```
